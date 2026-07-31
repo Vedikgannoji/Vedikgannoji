@@ -38,11 +38,11 @@ from PIL import Image
 from rembg import remove
 
 RAMP = " .`:-=+*cs#%@"     # bright/sparse -> dark/dense; leading space = blank
-COLS = 90                  # below ~88 the face muddies; far above it dominates
+COLS = 100                  # below ~88 the face muddies; far above it dominates
 CLAHE_CLIP = 3.0           # higher amplifies skin texture into noise
 GAMMA = 1.0                # ramp mapping exponent
 CURVE = 1.7                # the darkening curve — the difference-maker
-CROP_BOTTOM = 0.0          # fraction to trim off the bottom (torso, chair)
+CROP_BOTTOM = 0.10          # fraction to trim off the bottom (torso, chair)
 ROW_RATIO = 0.48           # monospace cells are about twice as tall as wide
 
 FG_LIGHT = "#6e7681"       # readable on GitHub light — the portrait's grey
