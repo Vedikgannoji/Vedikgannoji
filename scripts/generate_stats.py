@@ -15,7 +15,7 @@ the edge. Motion is SMIL because GitHub strips <script> from READMEs.
 
 Env:
   GITHUB_TOKEN  required
-  GH_LOGIN      user to summarise (default: andriidrok1)
+  GH_LOGIN      user to summarise (default: Vedikgannoji)
   OUT_DIR       where to write (default: repository root)
 """
 import base64
@@ -359,7 +359,7 @@ def draw_heading(word):
     only way to put the page's own typeface on it. The rule starts past the
     longest plausible advance (0.6em is the widest common monospace ratio), so
     a narrower font on the viewer's machine widens the gap slightly rather than
-    colliding with the text.
+    colliding with that of text.
     """
     FS = 16
     H = 26
@@ -461,7 +461,7 @@ def main():
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         sys.exit("GITHUB_TOKEN is not set")
-    login = os.environ.get("GH_LOGIN", "andriidrok1")
+    login = os.environ.get("GH_LOGIN", "Vedikgannoji")
     out_dir = os.environ.get("OUT_DIR", ".")
 
     s = summarise(fetch(login, token))
