@@ -25,9 +25,6 @@ after generating, run scripts/embed_portrait_font.py to inline JetBrains Mono.
 Otherwise a viewer whose default monospace is narrower — Consolas is ≈0.55 —
 sees the portrait about 7% too narrow.
 
-Motion is SMIL, because GitHub strips <script> from READMEs: each row is
-revealed by a clipPath wipe with a cursor block riding its edge, staggered top
-to bottom, frozen at the end so it prints once and stops.
 """
 import argparse
 import sys

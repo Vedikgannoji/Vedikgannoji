@@ -63,5 +63,5 @@ automated environments, dependencies, Git initialization, and modern tooling.
     alt="GitHub Contribution Snake"
     src="https://raw.githubusercontent.com/Vedikgannoji/Vedikgannoji/output/github-contribution-grid-snake-dark.svg">
 </picture>
-
 </div>
+
