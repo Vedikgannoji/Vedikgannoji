@@ -48,7 +48,20 @@ automated environments, dependencies, Git initialization, and modern tooling.
 
 <img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+<img src="./year.svg" width="620" alt="Contribution history"/>
+
+<br><br>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Vedikgannoji/Vedikgannoji/output/github-contribution-grid-snake-dark.svg">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Vedikgannoji/Vedikgannoji/output/github-contribution-grid-snake.svg">
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/Vedikgannoji/Vedikgannoji/output/github-contribution-grid-snake-dark.svg">
+</picture>
 
 </div>
-
